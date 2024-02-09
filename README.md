@@ -1,4 +1,4 @@
-# 🍅 Barcela Cooking
+# 🍅 Barcelona Cooking
 
 Este es proyecto desarrollado para el curso de Desarrollo Web en [Coder House](https://www.coderhouse.com/)
 
