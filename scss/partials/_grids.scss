@@ -1,0 +1,38 @@
+@import "../modules/all";
+
+.grid-recipes {
+  @include grid(3, 1em);
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.container-team {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+}
+
+.container-classes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.left-column {
+  margin: 20px;
+  padding: 10px;
+}
+
+.right-column {
+  margin: 20px;
+}
+
+.right-column img {
+  max-width: 100%;
+  height: auto;
+}

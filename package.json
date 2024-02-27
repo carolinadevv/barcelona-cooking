@@ -1,0 +1,11 @@
+{
+  "name": "barcelona-cooking",
+  "version": "1.0.0",
+  "description": "Este es proyecto desarrollado para el curso de Desarrollo Web en [Coder House](https://www.coderhouse.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

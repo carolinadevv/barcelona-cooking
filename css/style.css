@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #d1233d;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+.title-carrousel {
+  font-family: "Manrope", sans-serif;
+  color: #f4f0f0;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+.text-carrousel {
+  font-family: "Manrope", sans-serif;
+  color: #f4f0f0;
+  text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+.button, .button--recipes {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #f4f0f0;
+}
+
+.button, .button--recipes {
+  background-color: #d1233d;
+  border: none;
+  border-radius: 45px;
+  padding: 10px 20px;
+  margin: auto;
+  margin-right: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+
+.button:hover, .button--recipes:hover {
+  background-color: #f4f0f0;
+  border: solid 2px #d1233d;
+  box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
+  color: #d1233d;
+  transform: translateY(-7px);
+}
+
+.button--recipes {
+  background-color: #800003;
+  text-decoration: none;
+}
+
+.button--recipes:hover {
+  background-color: #f4f0f0;
+  border: solid 2px #800003;
+  box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
+  color: #800003;
+  transform: translateY(-7px);
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #d1233d;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+.title-carrousel {
+  font-family: "Manrope", sans-serif;
+  color: #f4f0f0;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+.text-carrousel {
+  font-family: "Manrope", sans-serif;
+  color: #f4f0f0;
+  text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+.button, .button--recipes {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #f4f0f0;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+.image-recipe {
+  width: 18rem;
+}
+
+div {
+  position: relative;
+  padding: 10px;
+}
+div .recipe {
+  text-align: center;
+}
+div .recipe .button--recipes {
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #d1233d;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+.title-carrousel {
+  font-family: "Manrope", sans-serif;
+  color: #f4f0f0;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+.text-carrousel {
+  font-family: "Manrope", sans-serif;
+  color: #f4f0f0;
+  text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+.button, .button--recipes {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #f4f0f0;
+}
+
+a svg:hover {
+  fill: #d1233d;
+  transform: scale(1.5);
+}
+
+#footer-nav li:hover a {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: medium;
+  }
+}
+.grid-recipes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 0em;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 480px) {
+  .grid-recipes {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 90%;
+    margin: auto;
+    gap: bem;
+    gap: 0em;
+  }
+}
+
+.container-team {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+}
+
+.container-classes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.left-column {
+  margin: 20px;
+  padding: 10px;
+}
+
+.right-column {
+  margin: 20px;
+}
+
+.right-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
