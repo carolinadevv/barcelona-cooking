@@ -13,4 +13,4 @@ Carolina Devia - deviacaro96@gmail.com
 
 Project Link: [https://github.com/carolinadevv/barcelona-cooking](https://github.com/carolinadevv/barcelona-cooking)
 
-Github Pages: [https://carolinadevv.github.io/barcelona-cooking/]
+Github Pages: [https://carolinadevv.github.io/barcelona-cooking/](https://carolinadevv.github.io/barcelona-cooking/)
