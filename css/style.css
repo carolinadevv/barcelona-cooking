@@ -128,7 +128,6 @@ p {
   transition: all 0.3s ease 0s;
   outline: none;
 }
-
 .button:hover, .button--recipes:hover {
   background-color: #f4f0f0;
   border: solid 2px #d1233d;
@@ -141,7 +140,6 @@ p {
   background-color: #800003;
   text-decoration: none;
 }
-
 .button--recipes:hover {
   background-color: #f4f0f0;
   border: solid 2px #800003;

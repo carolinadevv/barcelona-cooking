@@ -12,26 +12,25 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   outline: none;
-}
-
-.button:hover {
-  background-color: $text-color-white;
-  border: solid 2px #d1233d;
-  box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
-  color: $bg-color;
-  transform: translateY(-7px);
+  &:hover {
+    background-color: $text-color-white;
+    border: solid 2px #d1233d;
+    box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
+    color: $bg-color;
+    transform: translateY(-7px);
+  }
 }
 
 .button--recipes {
   @extend .button;
   background-color: #800003;
   text-decoration: none;
-}
 
-.button--recipes:hover {
-  background-color: $text-color-white;
-  border: solid 2px #800003;
-  box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
-  color: #800003;
-  transform: translateY(-7px);
+  &:hover {
+    background-color: $text-color-white;
+    border: solid 2px #800003;
+    box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
+    color: #800003;
+    transform: translateY(-7px);
+  }
 }
