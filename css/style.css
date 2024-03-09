@@ -238,6 +238,17 @@ div .recipe .button--recipes {
   margin: auto;
 }
 
+div {
+  position: relative;
+  padding: 10px;
+}
+div .card-home {
+  text-align: center;
+}
+div .card-home .image-recipe {
+  margin: auto;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -377,18 +388,41 @@ a svg:hover {
   }
 }
 
-.container-team {
+.grid-recipes {
   position: relative;
-  top: 5px;
-  left: 5px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  gap: 1em;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .grid-recipes {
+    top: 5px;
+    left: 5px;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-recipes {
+    top: 5px;
+    left: 5px;
+    grid-template-columns: auto;
+  }
 }
 
-.container-classes {
+.container-grid {
   display: grid;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 20px;
+  align-items: center;
 }
 
 .left-column {
@@ -403,11 +437,13 @@ a svg:hover {
 .right-column img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .left-column img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

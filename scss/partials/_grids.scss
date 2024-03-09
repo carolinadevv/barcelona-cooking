@@ -9,18 +9,38 @@
   margin: auto;
 }
 
-.container-team {
+.grid-recipes {
+  @include grid(3, 1em);
   position: relative;
-  top: 5px;
-  left: 5px;
-  text-align: center;
+  top: 30px;
+  left: 30px;
+  width: 80%;
+  margin: auto;
 }
 
-.container-classes {
+// .grid-home {
+//   @include grid(3, 1em);
+//   position: relative;
+//   top: 30px;
+//   left: 30px;
+//   width: 80%;
+//   margin: auto;
+// }
+
+// .container-team {
+//   position: relative;
+//   top: 5px;
+//   left: 5px;
+//   text-align: center;
+// }
+
+.container-grid {
   display: grid;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 20px;
+  align-items: center;
 }
 
 .left-column {
@@ -35,9 +55,11 @@
 .right-column img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .left-column img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
