@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @mixin sizes($width) {
   width: $width;
 }
@@ -43,6 +49,7 @@
 
 $colors: (
   Red: #d1233d,
+  Brown: #800003,
   White: #f4f0f0,
   Black: #000000,
   Grey: #818181,

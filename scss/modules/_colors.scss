@@ -1,6 +1,7 @@
 @import "../modules/all";
 
-$bg-color: map-get($colors, Red);
+$primary-color: map-get($colors, Red);
+$secondary-color: map-get($colors, Brown);
 $text-color-white: map-get($colors, White);
 $text-color-black: map-get($colors, Black);
 $text-color-grey: map-get($colors, Grey);

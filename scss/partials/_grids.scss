@@ -9,30 +9,11 @@
   margin: auto;
 }
 
-.grid-recipes {
-  @include grid(3, 1em);
-  position: relative;
-  top: 30px;
-  left: 30px;
-  width: 80%;
-  margin: auto;
+.grid-team {
+  @include tablet {
+    flex-direction: column;
+  }
 }
-
-// .grid-home {
-//   @include grid(3, 1em);
-//   position: relative;
-//   top: 30px;
-//   left: 30px;
-//   width: 80%;
-//   margin: auto;
-// }
-
-// .container-team {
-//   position: relative;
-//   top: 5px;
-//   left: 5px;
-//   text-align: center;
-// }
 
 .container-grid {
   display: grid;
@@ -44,22 +25,23 @@
 }
 
 .left-column {
-  margin: 20px;
+  margin: auto;
   padding: 10px;
 }
 
 .right-column {
-  margin: 20px;
+  margin: auto;
+  padding: 10px;
 }
 
 .right-column img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 10px;
 }
 
 .left-column img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 10px;
 }

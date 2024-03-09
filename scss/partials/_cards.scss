@@ -15,17 +15,13 @@ div {
   }
 }
 
-// .image-home {
-//   @include sizes(10rem);
-// }
+.image-team {
+  border-radius: 8px;
+  margin: 10px;
+  width: 100%;
+}
 
-div {
-  position: relative;
-  padding: 10px;
-  .card-home {
-    text-align: center;
-    .image-recipe {
-      margin: auto;
-    }
-  }
+.body-team {
+  text-align: center;
+  padding: 1rem;
 }

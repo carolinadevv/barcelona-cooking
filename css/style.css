@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -16,6 +22,12 @@
     font-size: medium;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -31,6 +43,12 @@
     font-size: medium;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -46,6 +64,12 @@
     font-size: medium;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -61,6 +85,12 @@
     font-size: medium;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -152,6 +182,12 @@ p {
   text-align: center;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -208,6 +244,12 @@ p {
   color: #f4f0f0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -238,15 +280,21 @@ div .recipe .button--recipes {
   margin: auto;
 }
 
-div {
-  position: relative;
-  padding: 10px;
+.image-team {
+  border-radius: 8px;
+  margin: 10px;
+  width: 100%;
 }
-div .card-home {
+
+.body-team {
   text-align: center;
+  padding: 1rem;
 }
-div .card-home .image-recipe {
-  margin: auto;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @media (min-width: 576px) {
@@ -264,6 +312,12 @@ div .card-home .image-recipe {
     font-size: medium;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -279,6 +333,12 @@ div .card-home .image-recipe {
     font-size: medium;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -345,6 +405,12 @@ a svg:hover {
   transform: scale(1.1);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 576px) {
   body {
     font-size: 18px;
@@ -388,31 +454,9 @@ a svg:hover {
   }
 }
 
-.grid-recipes {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  gap: 1em;
-  margin: auto;
-  position: relative;
-  top: 30px;
-  left: 30px;
-  width: 80%;
-  margin: auto;
-}
 @media screen and (max-width: 768px) {
-  .grid-recipes {
-    top: 5px;
-    left: 5px;
-    grid-template-columns: auto auto;
-  }
-}
-@media screen and (max-width: 480px) {
-  .grid-recipes {
-    top: 5px;
-    left: 5px;
-    grid-template-columns: auto;
+  .grid-team {
+    flex-direction: column;
   }
 }
 
@@ -426,22 +470,23 @@ a svg:hover {
 }
 
 .left-column {
-  margin: 20px;
+  margin: auto;
   padding: 10px;
 }
 
 .right-column {
-  margin: 20px;
+  margin: auto;
+  padding: 10px;
 }
 
 .right-column img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 10px;
 }
 
 .left-column img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 10px;
 }
