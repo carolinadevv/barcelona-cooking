@@ -124,6 +124,8 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #000000;
+  text-align: justify;
+  line-height: 2em;
 }
 
 .title-carrousel {
@@ -137,6 +139,7 @@ p {
   font-family: "Manrope", sans-serif;
   color: #f4f0f0;
   text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+  text-align: center;
 }
 
 .button, .button--recipes {
@@ -145,6 +148,33 @@ p {
   font-weight: 600;
   font-style: normal;
   color: #f4f0f0;
+}
+
+.body-team p {
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  line-height: 160%;
+}
+
+.body-team h3 {
+  padding: 10px;
+}
+
+.left-column h2 {
+  padding-bottom: 20px;
+}
+
+.right-column h2 {
+  padding-bottom: 20px;
+}
+
+.left-column h1 {
+  padding-bottom: 20px;
+}
+
+.title-chef {
+  padding: 50px;
+  margin: 50px;
 }
 
 .button, .button--recipes {
@@ -164,6 +194,10 @@ p {
   box-shadow: 0px 15px 20px rgba(100, 13, 0, 0.4);
   color: #d1233d;
   transform: translateY(-7px);
+}
+
+.buttons--home {
+  align-items: center;
 }
 
 .button--recipes {
@@ -221,6 +255,8 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #000000;
+  text-align: justify;
+  line-height: 2em;
 }
 
 .title-carrousel {
@@ -234,6 +270,7 @@ p {
   font-family: "Manrope", sans-serif;
   color: #f4f0f0;
   text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+  text-align: center;
 }
 
 .button, .button--recipes {
@@ -242,6 +279,33 @@ p {
   font-weight: 600;
   font-style: normal;
   color: #f4f0f0;
+}
+
+.body-team p {
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  line-height: 160%;
+}
+
+.body-team h3 {
+  padding: 10px;
+}
+
+.left-column h2 {
+  padding-bottom: 20px;
+}
+
+.right-column h2 {
+  padding-bottom: 20px;
+}
+
+.left-column h1 {
+  padding-bottom: 20px;
+}
+
+.title-chef {
+  padding: 50px;
+  margin: 50px;
 }
 
 * {
@@ -372,6 +436,8 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #000000;
+  text-align: justify;
+  line-height: 2em;
 }
 
 .title-carrousel {
@@ -385,6 +451,7 @@ p {
   font-family: "Manrope", sans-serif;
   color: #f4f0f0;
   text-shadow: 1px 1px 2px #d1233d, 0 0 1em #000000, 0 0 0.2em #000000;
+  text-align: center;
 }
 
 .button, .button--recipes {
@@ -395,6 +462,33 @@ p {
   color: #f4f0f0;
 }
 
+.body-team p {
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  line-height: 160%;
+}
+
+.body-team h3 {
+  padding: 10px;
+}
+
+.left-column h2 {
+  padding-bottom: 20px;
+}
+
+.right-column h2 {
+  padding-bottom: 20px;
+}
+
+.left-column h1 {
+  padding-bottom: 20px;
+}
+
+.title-chef {
+  padding: 50px;
+  margin: 50px;
+}
+
 a svg:hover {
   fill: #d1233d;
   transform: scale(1.5);
@@ -403,6 +497,17 @@ a svg:hover {
 #footer-nav li:hover a {
   font-weight: 600;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  #footer-nav {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  #footer-nav {
+    display: none;
+  }
 }
 
 * {

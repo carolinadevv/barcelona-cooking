@@ -21,6 +21,10 @@
   }
 }
 
+.buttons--home {
+  align-items: center;
+}
+
 .button--recipes {
   @extend .button;
   background-color: $secondary-color;

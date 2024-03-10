@@ -11,3 +11,12 @@ a svg:hover {
   font-weight: 600;
   transform: scale(1.1);
 }
+
+#footer-nav {
+  @include tablet {
+    flex-direction: column;
+  }
+  @include mobile {
+    display: none;
+  }
+}
